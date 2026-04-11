@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="fonts/fonts.css"
     <title>Оно тебе надо</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
             </ul>
         </div>
         <a class="header_logo">
-            <img src="logo.svg" alt="Оно тебе надо">
+            <img src="images/logo.svg" alt="Оно тебе надо">
         </a>
         <address class="header_contacts">
             <ul>
@@ -29,29 +30,34 @@
     
     <main>
 
-        <div class="cover_title">
-            <h1>  
-                <span class="text_left">Оно</span>
+        <section class="cover">
+            <div class="overlay"></div>
+            <h1 class="cover_title">  
+                <span class="text_left">оно</span>
                 <span class="text_center">тебе</span>
                 <span class="text_right">надо</span>
-             </h1>
+            </h1>
+            <div class="cover_description">
+                <p class=cover_description-text>аукцион вещей, в которые никто не верил</p>
+                <button class="bet-button">сделать ставку</button>
+            </div>
+        </section>
+        <section calss="lots">
+            <h2 class="title_lots">Лоты</h2>
+                <card1 class="card_left">
 
-        </div>
-        <lots>
-            <card1 class="card1">
+                </card1>
+                <card2 class="card_center">
 
-            </card1>
-            <card2 class="card2">
+                </card2>
+                <card3 class="card_right">
 
-            </card2>
-            <card3 class="card3">
+                </card3>
+            </lots>
+            <about class="about">
 
-            </card3>
-        </lots>
-        <about class="about">
-
-        </about>
-        
+            </about>
+        </section>
     </main>
     <footer>
         <p></p>

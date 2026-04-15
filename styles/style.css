@@ -181,7 +181,7 @@ body {
 }
 
 .card_film {
-    background-image: url(/images/card\ 1.jpg);
+    background-image: url(/images/card\ 1.png);
     max-width: 334px;
     max-height: 596px;
     flex-grow: 1;
